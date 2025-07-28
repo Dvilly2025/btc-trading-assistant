@@ -79,7 +79,7 @@ ax[0].plot(df['timestamp'], df['close'], label='BTC Price', color='blue')
 ax[0].legend()
 ax[0].set_title("BTC Price")
 
-ax[1].plot(df['timestamp'], df['rsi'], label='RSI", color='purple')
+ax[1].plot(df['timestamp'], df['rsi'], label='RSI', color='purple')
 ax[1].axhline(70, color='red', linestyle='--')
 ax[1].axhline(30, color='green', linestyle='--')
 ax[1].legend()
